@@ -73,26 +73,26 @@
             border-bottom-color: white;
         }
 
-       .photo {
-    flex-shrink: 0;
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 3px solid white;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    background-color: #f0f0f0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+        .photo {
+            flex-shrink: 0;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-.photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center 30%;
-}
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 30%;
+        }
 
         .card {
             background: white;
@@ -115,20 +115,20 @@
             margin-bottom: 20px;
         }
 
-        .personal-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
+        .personal-info {
+            display: flex;
+            flex-direction: column;
             gap: 12px;
         }
 
-        .personal-item {
+        .personal-row {
             display: flex;
             align-items: baseline;
         }
 
         .personal-label {
             font-weight: 600;
-            width: 110px;
+            width: 100px;
             color: #4a5568;
         }
 
@@ -195,6 +195,13 @@
             border-left: 2px solid #cbd5e0;
         }
 
+        .paper-number {
+            display: inline-block;
+            font-weight: 600;
+            color: #2a5298;
+            margin-right: 8px;
+        }
+
         .paper-title {
             font-weight: 600;
             font-size: 1.05em;
@@ -245,22 +252,6 @@
             background: #c8e0d0;
         }
 
-        .lang-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 8px 0;
-            border-bottom: 1px solid #e2e8f0;
-        }
-
-        .lang-name {
-            font-weight: 500;
-        }
-
-        .lang-level {
-            color: #718096;
-        }
-
         .footer {
             text-align: center;
             padding: 30px 20px;
@@ -288,9 +279,6 @@
             .card {
                 padding: 20px;
             }
-            .personal-grid {
-                grid-template-columns: 1fr;
-            }
             .entry-header {
                 flex-direction: column;
             }
@@ -316,14 +304,14 @@
 
         <div class="card">
             <h3>📋 Personal Information</h3>
-            <div class="personal-grid">
-                <div class="personal-item">
+            <div class="personal-info">
+                <div class="personal-row">
                     <span class="personal-label">Born:</span>
                     <span class="personal-value">December 12, 1989, Fujian, China</span>
                 </div>
-                <div class="personal-item">
-                    <span class="personal-label">Nationality: </span>
-                    <span class="personal-value"> Chinese</span>
+                <div class="personal-row">
+                    <span class="personal-label">Nationality:</span>
+                    <span class="personal-value">Chinese</span>
                 </div>
             </div>
         </div>
@@ -404,7 +392,7 @@
             <h3>📑 Preprints</h3>
             <ul class="paper-list">
                 <li class="paper-item">
-                    <div class="paper-title">Hole probabilities of random zeros on compact Riemann surfaces</div>
+                    <div class="paper-title"><span class="paper-number">1.</span> Hole probabilities of random zeros on compact Riemann surfaces</div>
                     <div class="paper-authors">Hao Wu, Song-Yan Xie</div>
                     <div class="paper-links">
                         <a href="https://arxiv.org/abs/2406.19114" target="_blank">arXiv:2406.19114</a>
@@ -414,7 +402,7 @@
                     <div class="paper-journal">math.CV | math.AG | math.PR</div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">Generating all Ahlfors currents by a single entire curve</div>
+                    <div class="paper-title"><span class="paper-number">2.</span> Generating all Ahlfors currents by a single entire curve</div>
                     <div class="paper-authors">Yunling Chen, John Erik Fornæss, Song-Yan Xie</div>
                     <div class="paper-links">
                         <a href="https://arxiv.org/abs/2511.12473" target="_blank">arXiv:2511.12473</a>
@@ -424,7 +412,7 @@
                     <div class="paper-journal">math.CV</div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">A Second Main Theorem for Entire Curves Intersecting Three Conics</div>
+                    <div class="paper-title"><span class="paper-number">3.</span> A Second Main Theorem for Entire Curves Intersecting Three Conics</div>
                     <div class="paper-authors">Lei Hou, Dinh Tuan Huynh, Joël Merker, Song-Yan Xie</div>
                     <div class="paper-links">
                         <a href="https://arxiv.org/abs/2512.03948" target="_blank">arXiv:2512.03948</a>
@@ -434,7 +422,7 @@
                     <div class="paper-journal">math.CV | math.AG</div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">Improved Degree Bounds for Hyperbolicity of Surfaces and Curve Complements</div>
+                    <div class="paper-title"><span class="paper-number">4.</span> Improved Degree Bounds for Hyperbolicity of Surfaces and Curve Complements</div>
                     <div class="paper-authors">Lei Hou, Dinh Tuan Huynh, Joël Merker, Song-Yan Xie</div>
                     <div class="paper-links">
                         <a href="https://arxiv.org/abs/2603.14881" target="_blank">arXiv:2603.14881</a>
@@ -448,18 +436,19 @@
 
         <!-- Published Articles Section -->
         <div class="card">
-            <h3>📄 Publications</h3>
+            <h3>📄 Selected Publications</h3>
             <ul class="paper-list">
                 <li class="paper-item">
-                    <div class="paper-title">On the ampleness of the cotangent bundles of complete intersections</div>
+                    <div class="paper-title"><span class="paper-number">1.</span> On the ampleness of the cotangent bundles of complete intersections</div>
                     <div class="paper-authors">Song-Yan Xie</div>
                     <div class="paper-journal">Invent. Math. 212 (2018), no. 3, 941–996.</div>
                     <div class="paper-links">
                         <a href="papers/xie2018_ampleness.pdf">📄 PDF</a>
+                        <a href="https://doi.org/10.1007/s00222-017-0783-8" target="_blank">DOI</a>
                     </div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">Entire holomorphic curves into projective spaces intersecting a generic hypersurface of high degree</div>
+                    <div class="paper-title"><span class="paper-number">2.</span> Entire holomorphic curves into projective spaces intersecting a generic hypersurface of high degree</div>
                     <div class="paper-authors">Dinh Tuan Huynh, Duc-Viet Vu, Song-Yan Xie</div>
                     <div class="paper-journal">Ann. Inst. Fourier (Grenoble) 69 (2019), no. 2, 653–671.</div>
                     <div class="paper-links">
@@ -467,7 +456,7 @@
                     </div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">On Ahlfors currents</div>
+                    <div class="paper-title"><span class="paper-number">3.</span> On Ahlfors currents</div>
                     <div class="paper-authors">Dinh Tuan Huynh, Song-Yan Xie</div>
                     <div class="paper-journal">J. Math. Pures Appl. (9) 156 (2021), 307–327.</div>
                     <div class="paper-links">
@@ -475,7 +464,7 @@
                     </div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">On the Weyl-Ahlfors theory of derived curves</div>
+                    <div class="paper-title"><span class="paper-number">4.</span> On the Weyl-Ahlfors theory of derived curves</div>
                     <div class="paper-authors">Dinh Tuan Huynh, Song-Yan Xie</div>
                     <div class="paper-journal">Math. Z. 300 (2022), no. 1, 475–491.</div>
                     <div class="paper-links">
@@ -483,7 +472,7 @@
                     </div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">Universal entire curves in projective spaces with slow growth</div>
+                    <div class="paper-title"><span class="paper-number">5.</span> Universal entire curves in projective spaces with slow growth</div>
                     <div class="paper-authors">Zhangchi Chen, Dinh Tuan Huynh, Song-Yan Xie</div>
                     <div class="paper-journal">J. Geom. Anal. 33 (2023), no. 9, Paper No. 308, 12 pp.</div>
                     <div class="paper-links">
@@ -491,7 +480,7 @@
                     </div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">Big Picard theorem for jet differentials and non-archimedean Ax-Lindemann theorem</div>
+                    <div class="paper-title"><span class="paper-number">6.</span> Big Picard theorem for jet differentials and non-archimedean Ax-Lindemann theorem</div>
                     <div class="paper-authors">Dinh Tuan Huynh, Ruiran Sun, Song-Yan Xie</div>
                     <div class="paper-journal">J. Number Theory 253 (2023), 257–277.</div>
                     <div class="paper-links">
@@ -499,7 +488,7 @@
                     </div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">Universal holomorphic maps with slow growth I: an algorithm</div>
+                    <div class="paper-title"><span class="paper-number">7.</span> Universal holomorphic maps with slow growth I: an algorithm</div>
                     <div class="paper-authors">Bin Guo, Song-Yan Xie</div>
                     <div class="paper-journal">Math. Ann. 389 (2024), 3349–3378.</div>
                     <div class="paper-links">
@@ -507,7 +496,7 @@
                     </div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">Entire curves producing distinct nevanlinna currents</div>
+                    <div class="paper-title"><span class="paper-number">8.</span> Entire curves producing distinct nevanlinna currents</div>
                     <div class="paper-authors">Song-Yan Xie</div>
                     <div class="paper-journal">Int. Math. Res. Not. 2024 (2024), no. 10, 8350–8362.</div>
                     <div class="paper-links">
@@ -515,7 +504,7 @@
                     </div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">Universal holomorphic maps with slow growth II: functional analysis methods</div>
+                    <div class="paper-title"><span class="paper-number">9.</span> Universal holomorphic maps with slow growth II: functional analysis methods</div>
                     <div class="paper-authors">Bin Guo, Song-Yan Xie</div>
                     <div class="paper-journal">Indiana Univ. Math. J. 75 (2026), no. 1, 48–86.</div>
                     <div class="paper-links">
@@ -523,7 +512,7 @@
                     </div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">Entire holomorphic curves into $\mathbb{P}^n(\mathbb{C})$ intersecting $n+1$ general hypersurfaces</div>
+                    <div class="paper-title"><span class="paper-number">10.</span> Entire holomorphic curves into $\mathbb{P}^n(\mathbb{C})$ intersecting $n+1$ general hypersurfaces</div>
                     <div class="paper-authors">Zhangchi Chen, Dinh Tuan Huynh, Ruiran Sun, Song-Yan Xie</div>
                     <div class="paper-journal">Sci. China Math. 68 (2025), no. 12, 2847–2866.</div>
                     <div class="paper-links">
@@ -531,7 +520,7 @@
                     </div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">Entire curves generating all shapes of Nevanlinna currents</div>
+                    <div class="paper-title"><span class="paper-number">11.</span> Entire curves generating all shapes of Nevanlinna currents</div>
                     <div class="paper-authors">Hao Wu, Song-Yan Xie</div>
                     <div class="paper-journal">J. Lond. Math. Soc. (2) 111 (2025), no. 5, Paper No. e70177.</div>
                     <div class="paper-links">
@@ -539,7 +528,7 @@
                     </div>
                 </li>
                 <li class="paper-item">
-                    <div class="paper-title">Frequently hypercyclic meromorphic curves with slow growth</div>
+                    <div class="paper-title"><span class="paper-number">12.</span> Frequently hypercyclic meromorphic curves with slow growth</div>
                     <div class="paper-authors">Zhangchi Chen, Bin Guo, Song-Yan Xie</div>
                     <div class="paper-journal">J. Geom. Anal. 36 (2026), 132.</div>
                     <div class="paper-links">
@@ -547,22 +536,6 @@
                     </div>
                 </li>
             </ul>
-        </div>
-
-        <div class="card">
-            <h3>🗣️ Languages</h3>
-            <div class="lang-item">
-                <span class="lang-name">Chinese</span>
-                <span class="lang-level">Native</span>
-            </div>
-            <div class="lang-item">
-                <span class="lang-name">English</span>
-                <span class="lang-level">Fluent</span>
-            </div>
-            <div class="lang-item">
-                <span class="lang-name">French</span>
-                <span class="lang-level">Elementary</span>
-            </div>
         </div>
 
         <div class="footer">
