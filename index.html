@@ -96,30 +96,33 @@
 
         .lang-switch {
             display: flex;
-            gap: 10px;
+            gap: 15px;
             margin-bottom: 20px;
             justify-content: flex-end;
         }
 
         .lang-btn {
-            background: rgba(255,255,255,0.2);
-            border: 1px solid rgba(255,255,255,0.5);
+            background: #2a5298;
+            border: 2px solid white;
             color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
+            padding: 8px 20px;
+            border-radius: 30px;
             cursor: pointer;
-            font-size: 0.9em;
+            font-size: 1em;
+            font-weight: 500;
             transition: all 0.2s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
 
         .lang-btn:hover {
-            background: rgba(255,255,255,0.3);
+            background: #1e3c72;
+            transform: scale(1.02);
         }
 
         .lang-btn.active {
             background: white;
             color: #1e3c72;
-            border-color: white;
+            border-color: #1e3c72;
         }
 
         .card {
@@ -317,20 +320,6 @@
                 margin-top: 10px;
             }
         }
-
-        /* 语言切换隐藏类 */
-        .lang-en, .lang-zh {
-            display: none;
-        }
-        .lang-en.active-lang, .lang-zh.active-lang {
-            display: block;
-        }
-        .card.lang-en.active-lang, .card.lang-zh.active-lang {
-            display: block;
-        }
-        .lang-en.active-lang, .lang-zh.active-lang {
-            display: block;
-        }
     </style>
 </head>
 <body>
@@ -378,7 +367,7 @@
                         <span class="entry-title">Ph.D. in Mathematics</span>
                         <span class="entry-date">2013 – 2016</span>
                     </div>
-                    <div class="entry-institution">Université Paris-Sud 11, Orsay, France</div>
+                    <div class="entry-institution">Université Paris-Sud 11, Paris, France</div>
                     <div class="entry-desc">
                         Thesis: On the ampleness of the cotangent bundles of complete intersections
                         <a href="papers/xie_phd_thesis.pdf" style="margin-left: 10px; font-size: 0.85em;">📄 PDF</a>
@@ -389,7 +378,7 @@
                         <span class="entry-title">M.S. in Mathematics</span>
                         <span class="entry-date">2012 – 2013</span>
                     </div>
-                    <div class="entry-institution">Université Paris-Sud 11, Orsay, France</div>
+                    <div class="entry-institution">Université Paris-Sud 11, Paris, France</div>
                 </div>
                 <div class="entry">
                     <div class="entry-header">
@@ -428,7 +417,7 @@
                         <span class="entry-title">Teaching Assistant</span>
                         <span class="entry-date">2016 – 2017</span>
                     </div>
-                    <div class="entry-institution">Université Paris-Sud 11, Orsay, France</div>
+                    <div class="entry-institution">Université Paris-Sud 11, Paris, France</div>
                 </div>
             </div>
 
@@ -638,7 +627,7 @@
                         <span class="entry-title">博士研究生 · 数学</span>
                         <span class="entry-date">2013 – 2016</span>
                     </div>
-                    <div class="entry-institution">巴黎第十一大学，法国奥赛</div>
+                    <div class="entry-institution">巴黎第十一大学，法国巴黎</div>
                     <div class="entry-desc">
                         论文：On the ampleness of the cotangent bundles of complete intersections
                         <a href="papers/xie_phd_thesis.pdf" style="margin-left: 10px; font-size: 0.85em;">📄 PDF</a>
@@ -649,7 +638,7 @@
                         <span class="entry-title">硕士研究生 · 数学</span>
                         <span class="entry-date">2012 – 2013</span>
                     </div>
-                    <div class="entry-institution">巴黎第十一大学，法国奥赛</div>
+                    <div class="entry-institution">巴黎第十一大学，法国巴黎</div>
                 </div>
                 <div class="entry">
                     <div class="entry-header">
@@ -688,7 +677,7 @@
                         <span class="entry-title">教学助理</span>
                         <span class="entry-date">2016 – 2017</span>
                     </div>
-                    <div class="entry-institution">巴黎第十一大学，法国奥赛</div>
+                    <div class="entry-institution">巴黎第十一大学，法国巴黎</div>
                 </div>
             </div>
 
@@ -853,7 +842,7 @@
             </div>
 
             <div class="footer">
-                <p>© 2026 谢松晏 | 最后更新: 2026年3月</p>
+                <p>© 2026 谢松晏 | 最近更新: 2026年3月</p>
                 <p style="margin-top: 10px; font-size: 0.8em;">
                     <a href="mailto:xiesongyan@amss.ac.cn" style="color: #718096;">xiesongyan@amss.ac.cn</a>
                 </p>
