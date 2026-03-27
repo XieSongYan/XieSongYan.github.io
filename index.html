@@ -115,26 +115,28 @@
             margin-bottom: 20px;
         }
 
-        .personal-info {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
+       .personal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 
-        .personal-row {
-            display: flex;
-            align-items: baseline;
-        }
+.personal-row {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
 
-        .personal-label {
-            font-weight: 600;
-            width: 100px;
-            color: #4a5568;
-        }
+.personal-label {
+    font-weight: 600;
+    width: 100px;
+    flex-shrink: 0;
+    color: #4a5568;
+}
 
-        .personal-value {
-            color: #2d3748;
-        }
+.personal-value {
+    color: #2d3748;
+}
 
         .entry {
             margin-bottom: 20px;
@@ -302,19 +304,19 @@
             </div>
         </div>
 
-        <div class="card">
-            <h3>📋 Personal Information</h3>
-            <div class="personal-info">
-                <div class="personal-row">
-                    <span class="personal-label">Born:</span>
-                    <span class="personal-value">December 12, 1989, Fujian, China</span>
-                </div>
-                <div class="personal-row">
-                    <span class="personal-label">Nationality:</span>
-                    <span class="personal-value">Chinese</span>
-                </div>
-            </div>
+       <div class="card">
+    <h3>📋 Personal Information</h3>
+    <div class="personal-info">
+        <div class="personal-row">
+            <span class="personal-label">Born:</span>
+            <span class="personal-value">December 12, 1989, Fujian, China</span>
         </div>
+        <div class="personal-row">
+            <span class="personal-label">Nationality:</span>
+            <span class="personal-value">Chinese</span>
+        </div>
+    </div>
+</div>
 
         <div class="card">
             <h3>🎓 Education</h3>
@@ -397,7 +399,6 @@
                     <div class="paper-links">
                         <a href="https://arxiv.org/abs/2406.19114" target="_blank">arXiv:2406.19114</a>
                         <a href="https://arxiv.org/pdf/2406.19114" target="_blank">PDF</a>
-                        <a href="#" class="code-link" onclick="alert('Maple Code will be available soon.'); return false;">📁 Maple Code</a>
                     </div>
                     <div class="paper-journal">math.CV | math.AG | math.PR</div>
                 </li>
@@ -407,7 +408,6 @@
                     <div class="paper-links">
                         <a href="https://arxiv.org/abs/2511.12473" target="_blank">arXiv:2511.12473</a>
                         <a href="https://arxiv.org/pdf/2511.12473" target="_blank">PDF</a>
-                        <a href="#" class="code-link" onclick="alert('Maple Code will be available soon.'); return false;">📁 Maple Code</a>
                     </div>
                     <div class="paper-journal">math.CV</div>
                 </li>
@@ -436,7 +436,7 @@
 
         <!-- Published Articles Section -->
         <div class="card">
-            <h3>📄 Selected Publications</h3>
+            <h3>📄 Publications</h3>
             <ul class="paper-list">
                 <li class="paper-item">
                     <div class="paper-title"><span class="paper-number">1.</span> On the ampleness of the cotangent bundles of complete intersections</div>
@@ -444,7 +444,6 @@
                     <div class="paper-journal">Invent. Math. 212 (2018), no. 3, 941–996.</div>
                     <div class="paper-links">
                         <a href="papers/xie2018_ampleness.pdf">📄 PDF</a>
-                        <a href="https://doi.org/10.1007/s00222-017-0783-8" target="_blank">DOI</a>
                     </div>
                 </li>
                 <li class="paper-item">
