@@ -1,0 +1,2646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2015" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false"><Zoom percentage="125"/>
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" quiet="false" errorcursor="false" longdelim="true" plotoptions="" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="1080" warnlevel="3" screenheight="25" latexwidth="8.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L3173" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3715" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3714" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3156" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart: unprotect('D'):
+
+m := 8;
+
+twist := - 7;
+
+d := 12;                  degre := d + 1:
+
+##
+
+HSS := T^13 + T^6*X^7 + X^13:
+
+##
+
+SS := subs({T=1,X=x}, HSS);
+
+##
+
+Jet_xR := expand(
+
++ (1/Ry^(m-0*2)) * add(AA||j * x1^(m-0*3-j) * (R1/RR)^j * Delta_xR^0, j=0..m-0*3)
+
++ (1/Ry^(m-1*2)) * add(BB||j * x1^(m-1*3-j) * (R1/RR)^j * Delta_xR^1, j=0..m-1*3)
+
++ (1/Ry^(m-2*2)) * add(CC||j * x1^(m-2*3-j) * (R1/RR)^j * Delta_xR^2, j=0..m-2*3)
+
++ (1/Ry^(m-3*2)) * add(DD||j * x1^(m-3*3-j) * (R1/RR)^j * Delta_xR^3, j=0..m-3*3)
+
++ (1/Ry^(m-4*2)) * add(EE||j * x1^(m-4*3-j) * (R1/RR)^j * Delta_xR^4, j=0..m-4*3) ):
+
+##
+
+for l from 0 to m - 0*3 do dA[l] := (m-0*2)*d - m + l*1 + 0*1 + twist: od:
+
+for l from 0 to m - 1*3 do dB[l] := (m-1*2)*d - m + l*1 + 1*1 + twist: od:
+
+for l from 0 to m - 2*3 do dC[l] := (m-2*2)*d - m + l*1 + 2*1 + twist: od:
+
+for l from 0 to m - 3*3 do dD[l] := (m-3*2)*d - m + l*1 + 3*1 + twist: od:
+
+for l from 0 to m - 4*3 do dE[l] := (m-4*2)*d - m + l*1 + 4*1 + twist: od:
+
+##
+
+Delta_xR := x1 * (R2/RR - R1*R1/RR^2) - x2 * (R1/RR):
+
+Solx1 := - y1*Ry/Rx + R1/Rx:
+
+Solx2 := - Rxx*y1^2*Ry^2/Rx^3 + 2*Rxx*y1*Ry*R1/Rx^3 - Rxx*R1^2/Rx^3 + 2*y1^2*Rxy*Ry/Rx^2
+         - 2*y1*Rxy*R1/Rx^2 - y1^2*Ryy/Rx - y2*Ry/Rx + R2/Rx:
+
+##
+
+Jet_Ry := sort(mtaylor(
+
+                       expand(subs(R2=-(RR^2*Delta_Ry-RR*R1*y2-R1^2*y1)/(RR*y1),
+                       expand(subs({x1=Solx1,x2=Solx2},                            Jet_xR)))), 
+
+         [R1,y1,Delta_Ry], 100), [R1,y1,Delta_Ry]):
+
+##
+
+printlevel := 2:
+for k from 0 to m/3   do
+for j from 0 to m-3*k do
+
+EEq[m-j-3*k,j,k] := factor(
+
+  Ry^(m-j-3*k)*RR^(m-j-3*k)*Rx^(m-2*k)
+*
+  coeftayl(Jet_Ry, [R1,y1,Delta_Ry]=[0,0,0], [m-j-3*k,j,k]) ):
+
+od: od:
+
+## EQUATION RR EXPLICITE
+
+RR  := y^(d+1) + SS;
+HRR := Y^(d+1) + HSS;
+
+RY := diff(HRR, Y):
+
+Rx := diff(RR,x):
+Ry := diff(RR,y):
+
+Rxx := diff(RR,x,x):
+Rxy := diff(RR,x,y):
+Ryy := diff(RR,y,y):
+
+##
+
+printlevel := 2:
+for k from 0 to m/3   do
+for j from 0 to m-3*k do
+
+Eq[m-j-3*k,j,k] := mtaylor(EEq[m-j-3*k,j,k], y, (m-j-3*k)*d):
+
+Var[m-j-3*k,j,k] := indets(Eq[m-j-3*k,j,k]) minus {x,y}:
+
+od: od:
+
+##
+
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEibUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSI4RidGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5">IiIp</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEmdHdpc3RGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiUtRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORlUtSSNtbkdGJDYkUSI3RidGOUY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9Rjk=">ISIo</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEiZEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSMxMkYnRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOQ==">IiM3</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEjU1NGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNigtRiM2JC1JJW1zdXBHRiQ2JS1GLDYlUSJ4RidGL0YyLUkjbW5HRiQ2JFEjMTNGJ0Y5LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Y5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXm8tRiM2JC1GVDYlRlYtRlo2JFEiN0YnRjlGZ25GOUZqbi1GWjYkUSIxRidGOUY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9Rjk=">LCgqJEkieEc2IiIjOCIiIiokRiQiIihGJ0YnRic=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEjUlJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiotRiM2JC1JJW1zdXBHRiQ2JS1GLDYlUSJ4RidGL0YyLUkjbW5HRiQ2JFEjMTNGJ0Y5LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Y5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXm8tRiM2JC1GVDYlLUYsNiVRInlGJ0YvRjJGWUZnbkY5RmpuLUYjNiQtRlQ2JUZWLUZaNiRRIjdGJ0Y5RmduRjlGam4tRlo2JFEiMUYnRjlGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5">LCoqJEkieEc2IiIjOCIiIiokSSJ5R0YlRiZGJyokRiQiIihGJ0YnRic=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEkSFJSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1GIzYqLUYjNiQtSSVtc3VwR0YkNiUtRiw2JVEiVEYnRi9GMi1JI21uR0YkNiRRIzEzRidGOS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGOS1GNjYtUSIrRidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORl5vLUYjNiYtRlQ2JUZWLUZaNiRRIjZGJ0Y5RmduLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GW3AtRlQ2JS1GLDYlUSJYRidGL0YyLUZaNiRRIjdGJ0Y5RmduRjlGam4tRiM2JC1GVDYlRl9wRllGZ25GOUZqbi1GIzYkLUZUNiUtRiw2JVEiWUYnRi9GMkZZRmduRjlGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5">LCoqJEkiVEc2IiIjOCIiIiomRiQiIidJIlhHRiUiIihGJyokRipGJkYnKiRJIllHRiVGJkYn</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L3333" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3335" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3443" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3444" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## EXPAND ALL UNKNOWNS UP TO y^(1*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],1*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],1*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],1*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],1*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],1*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(1*d)
+
+Systemey1d := {}:
+
+for k from 0 to (m-1)/3   do
+
+Coeffs_y1d[1,m-1-3*k,k] := {coeffs(expand(mtaylor(Eq[1,m-1-3*k,k], y, 1*d)), [x,y])}:
+
+Systemey1d := Systemey1d union Coeffs_y1d[1,m-1-3*k,k]:
+
+od:
+
+Systeme_y1d := Systemey1d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(1*d)
+
+Variables_y1d := indets(Systeme_y1d):
+
+## RESOLUTION y^(1*d)
+
+Solutions_y1d := solve(Systeme_y1d, Variables_y1d):
+
+assign(Solutions_y1d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+
+
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVtWg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZKTiI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRVKg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRhKg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRtKg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiR5Kg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiQhKio=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiUtNQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiU5NQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVtTg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVqIyk=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRtJw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiR5Jw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiQhcA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiQtKA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVVOA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiU+Rg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiQhUg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L3445" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3446" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3424" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3433" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## EXPAND ALL UNKNOWNS UP TO y^(2*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],2*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],2*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],2*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],2*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],2*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(2*d)
+
+Systemey2d := {}:
+
+for k from 0 to (m-2)/3   do
+
+Coeffs_y2d[2,m-2-3*k,k] := {coeffs(expand(mtaylor(Eq[2,m-2-3*k,k], y, 2*d)), [x,y])}:
+
+Systemey2d := Systemey2d union Coeffs_y2d[2,m-2-3*k,k]:
+
+od:
+
+Systeme_y2d := Systemey2d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(2*d)
+
+Variables_y2d := indets(Systeme_y2d):
+
+## RESOLUTION y^(2*d)
+
+Solutions_y2d := solve(Systeme_y2d, Variables_y2d):
+
+assign(Solutions_y2d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiY2XSI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiYheUQ=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZZVyY=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVrPA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiUpeSI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiU3PQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVPPQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVnPQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiUlKT0=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVGdg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiY3VyI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiYkZUU=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiU3Nw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVPNw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVnNw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRiKA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVqOA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiV4Qg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L3434" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3437" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3438" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3439" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## EXPAND ALL UNKNOWNS UP TO y^(3*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],3*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],3*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],3*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],3*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],3*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(3*d)
+
+Systemey3d := {}:
+
+for k from 0 to (m-3)/3   do
+
+Coeffs_y3d[3,m-3-3*k,k] := {coeffs(expand(mtaylor(Eq[3,m-3-3*k,k], y, 3*d)), [x,y])}:
+
+Systemey3d := Systemey3d union Coeffs_y3d[3,m-3-3*k,k]:
+
+od:
+
+Systeme_y3d := Systemey3d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(3*d)
+
+Variables_y3d := indets(Systeme_y3d):
+
+## RESOLUTION y^(3*d)
+
+Solutions_y3d := solve(Systeme_y3d, Variables_y3d):
+
+assign(Solutions_y3d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZ4byc=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZtOSY=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiYiUnA=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZsMik=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVtQw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiUtRA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVRRA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiV1RA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiU1RQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiYuNCM=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZrJj4=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZiOiM=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZOXiI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVROw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiV1Ow==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiQ+Kg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVFOQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVkQw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L3447" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3451" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3450" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3453" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## EXPAND ALL UNKNOWNS UP TO y^(4*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],4*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],4*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],4*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],4*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],4*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(4*d)
+
+Systemey4d := {}:
+
+for k from 0 to (m-4)/3   do
+
+Coeffs_y4d[4,m-4-3*k,k] := {coeffs(expand(mtaylor(Eq[4,m-4-3*k,k], y, 4*d)), [x,y])}:
+
+Systemey4d := Systemey4d union Coeffs_y4d[4,m-4-3*k,k]:
+
+od:
+
+Systeme_y4d := Systemey4d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(4*d)
+
+Variables_y4d := indets(Systeme_y4d):
+
+## RESOLUTION y^(4*d)
+
+Solutions_y4d := solve(Systeme_y4d, Variables_y4d):
+
+assign(Solutions_y4d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiYmKSlv</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiYqeW0=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiY+MCg=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZzKyk=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IickbzIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVbSQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiUnNCQ=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVXSg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiUjPiQ=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiYwTCI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiYpSD4=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiY1PyM=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZDXiM=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZAIkg=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVXPg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVOSw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiU9XQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiUxeQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L3452" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3455" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3706" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4481" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## EXPAND ALL UNKNOWNS UP TO y^(5*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],5*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],5*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],5*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],5*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],5*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(5*d)
+
+Systemey5d := {}:
+
+for k from 0 to (m-5)/3   do
+
+Coeffs_y5d[5,m-5-3*k,k] := {coeffs(expand(mtaylor(Eq[5,m-5-3*k,k], y, 5*d)), [x,y])}:
+
+Systemey5d := Systemey5d union Coeffs_y5d[5,m-5-3*k,k]:
+
+od:
+
+Systeme_y5d := Systemey5d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(5*d)
+
+Variables_y5d := indets(Systeme_y5d):
+
+## RESOLUTION y^(5*d)
+
+Solutions_y5d := solve(Systeme_y5d, Variables_y5d):
+
+assign(Solutions_y5d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+
+
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZyXSU=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZ3PSY=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZiXyY=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZ6ayY=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZyOCg=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiY/MSg=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiU1Tg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVxTg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVJTw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRPJQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiUiPSI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiUjeSI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVHPg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVrPQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiR2Iw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRaKQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVaNw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVgOw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L4476" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4488" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4474" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4472" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## EXPAND ALL UNKNOWNS UP TO y^(6*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],6*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],6*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],6*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],6*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],6*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(6*d)
+
+Systemey6d := {}:
+
+for k from 0 to (m-6)/3   do
+
+Coeffs_y6d[6,m-6-3*k,k] := {coeffs(expand(mtaylor(Eq[6,m-6-3*k,k], y, 6*d)), [x,y])}:
+
+Systemey6d := Systemey6d union Coeffs_y6d[6,m-6-3*k,k]:
+
+od:
+
+Systeme_y6d := Systemey6d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(6*d)
+
+Variables_y6d := indets(Systeme_y6d):
+
+## RESOLUTION y^(6*d)
+
+Solutions_y6d := solve(Systeme_y6d, Variables_y6d):
+
+assign(Solutions_y6d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiUyKio=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZCXiI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiY6JD4=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZXPiM=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZgXCM=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiYoSEU=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiZAXiM=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVfUQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVDUg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiQhcA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVlOw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiUrRA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiUtSA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiU1SQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRaJg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiU1OA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiU+Pg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVNRQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L4464" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4496" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4485" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4487" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## EXPAND ALL UNKNOWNS UP TO y^(7*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],7*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],7*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],7*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],7*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],7*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(7*d)
+
+Systemey7d := {}:
+
+for k from 0 to (m-7)/3   do
+
+Coeffs_y7d[7,m-7-3*k,k] := {coeffs(expand(mtaylor(Eq[7,m-7-3*k,k], y, 7*d)), [x,y])}:
+
+Systemey7d := Systemey7d union Coeffs_y7d[7,m-7-3*k,k]:
+
+od:
+
+Systeme_y7d := Systemey7d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(7*d)
+
+Variables_y7d := indets(Systeme_y7d):
+
+## RESOLUTION y^(7*d)
+
+Solutions_y7d := solve(Systeme_y7d, Variables_y7d):
+
+assign(Solutions_y7d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiNP</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRnIg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiReJA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRQJw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiQ/KQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRWKg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiQ9Kg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRnJA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiV1Uw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiNz</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiQpRw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRuJQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRhJw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRYJw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiQuIg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRXIw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRDJA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiRsJg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L4479" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4502" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4463" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4497" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+## EXPAND ALL UNKNOWNS UP TO y^(8*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],8*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],8*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],8*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],8*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],8*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(8*d)
+
+Systemey8d := {}:
+
+for k from 0 to (m-8)/3   do
+
+Coeffs_y8d[8,m-8-3*k,k] := {coeffs(expand(mtaylor(Eq[8,m-8-3*k,k], y, 8*d)), [x,y])}:
+
+Systemey8d := Systemey8d union Coeffs_y8d[8,m-8-3*k,k]:
+
+od:
+
+Systeme_y8d := Systemey8d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(8*d)
+
+Variables_y8d := indets(Systeme_y8d):
+
+## RESOLUTION y^(8*d)
+
+Solutions_y8d := solve(Systeme_y8d, Variables_y8d):
+
+assign(Solutions_y8d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L4470" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4500" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4465" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4484" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## EXPAND ALL UNKNOWNS UP TO y^(9*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],9*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],9*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],9*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],9*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],9*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(9*d)
+
+Systemey9d := {}:
+
+for k from 0 to (m-9)/3   do
+
+Coeffs_y9d[9,m-9-3*k,k] := {coeffs(expand(mtaylor(Eq[9,m-9-3*k,k], y, 9*d)), [x,y])}:
+
+Systemey9d := Systemey9d union Coeffs_y9d[9,m-9-3*k,k]:
+
+od:
+
+Systeme_y9d := Systemey9d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(9*d)
+
+Variables_y9d := indets(Systeme_y9d):
+
+## RESOLUTION y^(9*d)
+
+Solutions_y9d := solve(Systeme_y9d, Variables_y9d):
+
+assign(Solutions_y9d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L4468" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4483" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4482" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4495" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+## EXPAND ALL UNKNOWNS UP TO y^(10*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],10*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],10*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],10*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],10*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],10*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(10*d)
+
+Systemey10d := {}:
+
+for k from 0 to (m-10)/3   do
+
+Coeffs_y10d[10,m-10-3*k,k] := {coeffs(expand(mtaylor(Eq[10,m-10-3*k,k], y, 10*d)), [x,y])}:
+
+Systemey10d := Systemey10d union Coeffs_y10d[10,m-10-3*k,k]:
+
+od:
+
+Systeme_y10d := Systemey10d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(10*d)
+
+Variables_y10d := indets(Systeme_y10d):
+
+## RESOLUTION y^(10*d)
+
+Solutions_y10d := solve(Systeme_y10d, Variables_y10d):
+
+assign(Solutions_y10d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L4498" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4493" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4501" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4490" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+## EXPAND ALL UNKNOWNS UP TO y^(11*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],11*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],11*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],11*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],11*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],11*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(11*d)
+
+Systemey11d := {}:
+
+for k from 0 to (m-11)/3   do
+
+Coeffs_y11d[11,m-11-3*k,k] := {coeffs(expand(mtaylor(Eq[11,m-11-3*k,k], y, 11*d)), [x,y])}:
+
+Systemey11d := Systemey11d union Coeffs_y11d[11,m-11-3*k,k]:
+
+od:
+
+Systeme_y11d := Systemey11d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(11*d)
+
+Variables_y11d := indets(Systeme_y11d):
+
+## RESOLUTION y^(11*d)
+
+Solutions_y11d := solve(Systeme_y11d, Variables_y11d):
+
+assign(Solutions_y11d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L4473" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4492" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4480" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4475" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## EXPAND ALL UNKNOWNS UP TO y^(12*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],12*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],12*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],12*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],12*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],12*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(12*d)
+
+Systemey12d := {}:
+
+for k from 0 to (m-12)/3   do
+
+Coeffs_y12d[12,m-12-3*k,k] := {coeffs(expand(mtaylor(Eq[12,m-12-3*k,k], y, 12*d)), [x,y])}:
+
+Systemey12d := Systemey12d union Coeffs_y12d[12,m-12-3*k,k]:
+
+od:
+
+Systeme_y12d := Systemey12d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(12*d)
+
+Variables_y12d := indets(Systeme_y12d):
+
+## RESOLUTION y^(12*d)
+
+Solutions_y12d := solve(Systeme_y12d, Variables_y12d):
+
+assign(Solutions_y12d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L4477" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4506" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4491" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4467" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## EXPAND ALL UNKNOWNS UP TO y^(13*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],13*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],13*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],13*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],13*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],13*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(13*d)
+
+Systemey13d := {}:
+
+for k from 0 to (m-13)/3   do
+
+Coeffs_y13d[13,m-13-3*k,k] := {coeffs(expand(mtaylor(Eq[13,m-13-3*k,k], y, 13*d)), [x,y])}:
+
+Systemey13d := Systemey13d union Coeffs_y13d[13,m-13-3*k,k]:
+
+od:
+
+Systeme_y13d := Systemey13d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(13*d)
+
+Variables_y13d := indets(Systeme_y13d):
+
+## RESOLUTION y^(13*d)
+
+Solutions_y13d := solve(Systeme_y13d, Variables_y13d):
+
+assign(Solutions_y13d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L4503" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4486" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4499" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4489" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## EXPAND ALL UNKNOWNS UP TO y^(14*d)
+
+for l from 0 to m - 0*3 do 
+AA||l := add(add(A||l[i,j]*x^i*y^j, i=0..dA[l]-j), j=0..min(dA[l],14*d-1)): od:
+
+for l from 0 to m - 1*3 do
+BB||l := add(add(B||l[i,j]*x^i*y^j, i=0..dB[l]-j), j=0..min(dB[l],14*d-1)): od:
+
+for l from 0 to m - 2*3 do
+CC||l := add(add(C||l[i,j]*x^i*y^j, i=0..dC[l]-j), j=0..min(dC[l],14*d-1)): od:
+
+for l from 0 to m - 3*3 do
+DD||l := add(add(D||l[i,j]*x^i*y^j, i=0..dD[l]-j), j=0..min(dD[l],14*d-1)): od:
+
+for l from 0 to m - 4*3 do
+EE||l := add(add(E||l[i,j]*x^i*y^j, i=0..dE[l]-j), j=0..min(dE[l],14*d-1)): od:
+
+## SYSTEM FOR DIVISIBILITY BY y^(14*d)
+
+Systemey14d := {}:
+
+for k from 0 to (m-14)/3   do
+
+Coeffs_y14d[14,m-14-3*k,k] := {coeffs(expand(mtaylor(Eq[14,m-14-3*k,k], y, 14*d)), [x,y])}:
+
+Systemey14d := Systemey14d union Coeffs_y14d[14,m-14-3*k,k]:
+
+od:
+
+Systeme_y14d := Systemey14d:
+
+## VARIABLES FOR DIVISIBILITY BY y^(14*d)
+
+Variables_y14d := indets(Systeme_y14d):
+
+## RESOLUTION y^(14*d)
+
+Solutions_y14d := solve(Systeme_y14d, Variables_y14d):
+
+assign(Solutions_y14d):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L4471" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4504" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4469" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4478" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4466" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4508" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4509" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4507" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4505" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3747" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3746" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3749" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3748" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3751" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3750" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3539" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3542" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3541" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3544" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3543" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3678" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## HOLOMORPHICITY AT INFINITY
+
+for l from 0 to m - 0*3 do 
+
+HA||l := add(add(A||l[i,j]*X^i*Y^j*T^(dA[l]-i-j), i=0..dA[l]-j), j=0..dA[l]):
+
+od:
+
+#
+
+for l from 0 to m - 1*3 do 
+
+HB||l := add(add(B||l[i,j]*X^i*Y^j*T^(dB[l]-i-j), i=0..dB[l]-j), j=0..dB[l]):
+
+od:
+
+#
+
+for l from 0 to m - 2*3 do 
+
+HC||l := add(add(C||l[i,j]*X^i*Y^j*T^(dC[l]-i-j), i=0..dC[l]-j), j=0..dC[l]):
+
+od:
+
+#
+
+for l from 0 to m - 3*3 do 
+
+HD||l := add(add(D||l[i,j]*X^i*Y^j*T^(dD[l]-i-j), i=0..dD[l]-j), j=0..dD[l]):
+
+od:
+
+#
+
+for l from 0 to m - 4*3 do 
+
+HE||l := add(add(E||l[i,j]*X^i*Y^j*T^(dE[l]-i-j), i=0..dE[l]-j), j=0..dE[l]):
+
+od:
+
+##
+
+for j from 0 to m - 0*3 do
+
+HK[j,0] := HA||j:
+
+od:
+
+#
+
+for j from 0 to m - 1*3 do
+
+HK[j,1] := HB||j:
+
+od:
+
+#
+
+for j from 0 to m - 2*3 do
+
+HK[j,2] := HC||j:
+
+od:
+
+#
+
+for j from 0 to m - 3*3 do
+
+HK[j,3] := HD||j:
+
+od:
+
+#
+
+for j from 0 to m - 4*3 do
+
+HK[j,4] := HE||j:
+
+od:
+
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3684" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3683" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3627" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3644" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">##
+
+printlevel := 2:
+for q from 0 to m/3   do
+for p from 0 to m-3*q do
+
+HEq[p,q] := expand(mtaylor(add(add(add(
+
+  (-1)^k * 2^(p-r) * (d+1)^(j+k-p-q) * binomial(j,r) * (k!)/((p-r)!*q!*(k+r-p-q)!)
+
+* X^(m-q-j-2*k) * T^(k-q) * RY^(2*k-2*q) * HK[j,k],
+
+j=r..m-3*k),
+r=max(0,p+q-k)..min(p,m-3*k)),
+k=q..m/3)
+
+, T, m-p-3*q)):
+
+od: od:
+
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3643" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3630" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3628" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3629" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3641" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3690" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">HSysteme := {seq(seq(coeffs(HEq[p,q],[T,X,Y]),p=0..m-3*q),q=0..m/3)} minus {0}:
+
+HSolutions := solve(HSysteme):
+
+assign(HSolutions):
+
+##
+
+for l from 0 to m - 0*3 do nops(expand(AA||l)) od;
+for l from 0 to m - 1*3 do nops(expand(BB||l)) od;
+for l from 0 to m - 2*3 do nops(expand(CC||l)) od;
+for l from 0 to m - 3*3 do nops(expand(DD||l)) od;
+for l from 0 to m - 4*3 do nops(expand(EE||l)) od;
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L3689" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3691" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3688" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3694" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3693" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3695" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3692" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3698" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3664" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3619" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3640" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3617" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3620" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3623" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3618" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3621" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3624" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3626" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3622" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3682" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3625" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3649" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3660" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3662" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3680" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3677" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3676" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3674" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3675" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Jet_xR := factor(
+
++ (1/Ry^(m-0*2)) * x^(-twist) * add(AA||j * x1^(m-0*3-j) * (R1/RR)^j * Delta_xR^0, j=0..m-0*3)
+
++ (1/Ry^(m-1*2)) * x^(-twist) * add(BB||j * x1^(m-1*3-j) * (R1/RR)^j * Delta_xR^1, j=0..m-1*3)
+
++ (1/Ry^(m-2*2)) * x^(-twist) * add(CC||j * x1^(m-2*3-j) * (R1/RR)^j * Delta_xR^2, j=0..m-2*3)
+
++ (1/Ry^(m-3*2)) * x^(-twist) * add(DD||j * x1^(m-3*3-j) * (R1/RR)^j * Delta_xR^3, j=0..m-3*3)
+
++ (1/Ry^(m-4*2)) * x^(-twist) * add(EE||j * x1^(m-4*3-j) * (R1/RR)^j * Delta_xR^4, j=0..m-4*3) ):
+
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3673" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3672" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3665" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3666" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Vars := indets(Jet_xR) minus {x, x1, x2, y, y1, y2, R1, R2};
+
+NbVars := nops(Vars);
+
+
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVElVmFyc0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ji1GLDYlUSFGJ0YvRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOUY5LyUlb3BlbkdRInxmckYnLyUmY2xvc2VHUSJ8aHJGJ0ZXRlpGOQ==">PCI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnTmJWYXJzRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRIjBGJ0Y5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9Rjk=">IiIh</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L3659" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3657" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3661" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3663" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ens_Vars := {}:
+
+for i from 1 to nops(Vars) do
+
+Ens_Vars := Ens_Vars union {op(i,Vars)=0}:
+
+od:
+
+EnsVars := Ens_Vars:
+
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3654" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3653" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3655" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3656" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## SOLUTIONS WITH FORMAL R1 AND R2
+
+for i from 1 to nops(Vars) do
+
+JetSol[i] := factor(subs(EnsVars, subs(op(i,Vars)=1, Jet_xR))):
+
+od:
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3647" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3720" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3721" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3722" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## EXPLICIT SOLUTIONS
+
+R1 := x1*Rx + y1*Ry:
+
+R2 := x2*Rx + y2*Ry + x1^2*Rxx + 2*x1*y1*Rxy + y1^2*Ryy:
+
+Delta_xR := factor(x1*(R2/RR-R1^2/RR^2) - x2*(R1/RR)):
+
+##
+
+for i from 1 to nops(Vars) do
+
+JetSol[i] := factor(subs(EnsVars, subs(op(i,Vars)=1, Jet_xR))):
+
+od:
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3723" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3724" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3737" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3646" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3639" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3713" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">## VERIICATION OF HOLOMORPHICITY AT INFINITY
+
+Liste_x := {x = 1/x,
+
+            y = y/x,
+
+            x1 = - x1/x^2,
+
+            x2 = 2*x1^2/x^3 - x2/x^2,
+
+            y1 = y1/x - y*x1/x^2,
+
+            y2 = y2/x - 2*y1*x1/x^2 + 2*y*x1^2/x^3 - y*x2/x^2}:
+
+#
+
+Liste_y := {y = 1/y,
+
+            x = x/y,
+
+            y1 = - y1/y^2,
+
+            y2 = 2*y1^2/y^3 - y2/y^2,
+
+            x1 = x1/y - x*y1/y^2,
+
+            x2 = x2/y - 2*x1*y1/y^2 + 2*x*y1^2/y^3 - x*y2/y^2}:
+
+##
+
+for i from 1 to nops(Vars) do
+
+JetSol_x[i] := factor(subs(Liste_x, JetSol[i])):
+JetSol_y[i] := factor(subs(Liste_y, JetSol[i])):
+
+od:
+
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3712" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3726" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3727" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3728" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3733" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Vars := indets(Jet_xR) minus {x, x1, x2, y, y1, y2, R1, R2};
+
+NbVars := nops(Vars);
+</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVElVmFyc0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ji1GLDYlUSFGJ0YvRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOUY5LyUlb3BlbkdRInxmckYnLyUmY2xvc2VHUSJ8aHJGJ0ZXRlpGOQ==">PCI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnTmJWYXJzRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRIjBGJ0Y5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9Rjk=">IiIh</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L3734" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3735" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3557" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3537" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3536" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3538" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
