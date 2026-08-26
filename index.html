@@ -78,16 +78,6 @@
             box-shadow: var(--shadow);
         }
 
-        .header::after {
-            content: "";
-            position: absolute;
-            right: 178px;
-            top: 0;
-            width: 1px;
-            height: 100%;
-            background: linear-gradient(to bottom, transparent, var(--line), transparent);
-        }
-
         .hero-kicker {
             margin-bottom: 10px;
             color: var(--accent);
@@ -142,7 +132,7 @@
             border-radius: 6px;
         }
 
-        .photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 28%; }
+        .photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 28%; }
 
         .card {
             margin-bottom: 18px;
@@ -205,6 +195,7 @@
 
         .research-area h4 {
             margin-bottom: 10px;
+            min-height: 2.7em;
             color: var(--navy);
             font-family: Georgia, "Times New Roman", "Noto Serif SC", serif;
             font-size: 1.05rem;
@@ -213,11 +204,6 @@
         }
 
         .research-area p { color: var(--muted); font-size: 0.86rem; line-height: 1.55; }
-
-        .personal-info { display: flex; flex-direction: column; gap: 9px; }
-        .personal-row { display: flex; align-items: baseline; flex-wrap: wrap; }
-        .personal-label { width: 120px; flex-shrink: 0; color: var(--navy); font-weight: 650; }
-        .personal-value { color: #46525e; }
 
         .entry { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #edf0ef; }
         .entry:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
@@ -241,13 +227,13 @@
         .footer { margin-top: 28px; padding: 24px 4px; color: var(--muted); border-top: 1px solid var(--line); text-align: center; font-size: 0.78rem; }
         .footer a { color: var(--muted) !important; }
 
-        @media (max-width: 800px) {
+        @media (max-width: 900px) {
             .container { padding: 18px 14px 44px; }
             .header { grid-template-columns: 1fr; gap: 28px; padding: 38px 30px; }
-            .header::after { display: none; }
             .photo { grid-row: 1; width: 116px; height: 140px; }
             .research-grid { grid-template-columns: 1fr; }
             .research-area { min-height: 0; }
+            .research-area h4 { min-height: 0; }
             .card, .research-card { padding: 26px 24px; }
         }
 
@@ -305,20 +291,6 @@
                         <h4>Stochastic Geometry and Complex Analysis</h4>
                         <p>Random zeros · Hole probabilities · Random holomorphic sections · Complex analysis</p>
                     </article>
-                </div>
-            </div>
-
-            <div class="card">
-                <h3>Personal Information</h3>
-                <div class="personal-info">
-                    <div class="personal-row">
-                        <span class="personal-label">Born:</span>
-                        <span class="personal-value">December, 1989, Fujian, China</span>
-                    </div>
-                    <div class="personal-row">
-                        <span class="personal-label">Nationality:</span>
-                        <span class="personal-value">Chinese</span>
-                    </div>
                 </div>
             </div>
 
@@ -637,20 +609,6 @@
             </div>
 
             <div class="card">
-                <h3>个人信息</h3>
-                <div class="personal-info">
-                    <div class="personal-row">
-                        <span class="personal-label">出生：</span>
-                        <span class="personal-value">1989年12月，福建</span>
-                    </div>
-                    <div class="personal-row">
-                        <span class="personal-label">国籍：</span>
-                        <span class="personal-value">中国</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
                 <h3>教育经历</h3>
                 <div class="entry">
                     <div class="entry-header">
@@ -801,8 +759,8 @@
                         <div class="paper-journal">math.CV | math.AG</div>
                     </li>
                     <li class="paper-item">
-                        <div class="paper-title"><span class="paper-number">10.</span> Oka K3 曲面的周期是稠密的</div>
-                        <div class="paper-authors">谢松晏、赵圣元（Song-Yan Xie, Shengyuan Zhao）</div>
+                        <div class="paper-title"><span class="paper-number">10.</span> Periods of Oka K3 surfaces are dense</div>
+                        <div class="paper-authors">Song-Yan Xie, Shengyuan Zhao</div>
                         <div class="paper-links">
                             <a href="https://arxiv.org/abs/2608.24392" target="_blank">arXiv:2608.24392</a>
                             <a href="https://arxiv.org/pdf/2608.24392" target="_blank">PDF</a>
